@@ -1,9 +1,9 @@
-packagpackage ooplab5;
+package ooplab5;
 
-        import java.util.ArrayList;
-        import java.util.Arrays;
-        import java.util.Collections;
-        import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
 
 //1. allow user input data into array: inputData,ShowData
 //2. find summation of data in array
