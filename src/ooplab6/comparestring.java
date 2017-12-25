@@ -16,7 +16,7 @@ public class comparestring {
 
         //type3 (compareTo())
         if (m.compareTo(n)==0)System.out.println();
-        else if (m.compareTo(n)>0)
+        else if (m.compareTo(n)>=1)
             System.out.println("no.+");
         else System.out.println("no.-");
 
