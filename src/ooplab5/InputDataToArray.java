@@ -13,8 +13,10 @@ public class InputDataToArray {
         num = inputData(num);
         showData(num);
     } // main
-    private static void ShowData(Integer[] num) {
-        System.out.println("Data in array:");
+
+    private static void showData(Integer[] num) {
+    }
+    System.out.println("Data in array:");
         for (int i=0; i<num.length;i++) {
             System.out.print(num[i]+"");
         }
@@ -41,7 +43,7 @@ public class InputDataToArray {
         System.out.println("Data in array:");
         for (int i=0; i<num.length;i++)
         //op
-        for (int i : num) {
+       for (int i : num) {
             System.out.print(i+" ");
         }
         System.out.println();
