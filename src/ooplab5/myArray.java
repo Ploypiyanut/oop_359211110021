@@ -26,7 +26,7 @@ public class myArray {
     } //main
 
     private static void showData(int[] num) {
-        System.out.print("Data in array:");
+        System.out.println("Data in array:");
         for (int i=0; i<num.length;i++) {
             System.out.print(num[i]+"");
         }
