@@ -25,13 +25,13 @@ public class StudentApp {
     private static Student inputData(Student s) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter student info:");
-        System.out.println("Enter student ID:");
+        System.out.print("Enter student ID:");
         s.setId(scanner.nextLine());
-        System.out.println("Enter student name:");
+        System.out.print("Enter student name:");
         s.setname(scanner.nextLine());
-        System.out.println("Enter student major:");
+        System.out.print("Enter student major:");
         s.setmajor(scanner.nextLine());
-        System.out.println("Enter student group");
+        System.out.print("Enter student group");
         s.setgroup(scanner.nextLine());
 
         return s;
