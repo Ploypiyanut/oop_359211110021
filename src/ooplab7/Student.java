@@ -7,6 +7,7 @@ package ooplab7;
 //3. major
 //4. group
 public class Student {
+    public static String faculty = "Management Technology";
     private String id;
     private String name;
     private String major;
@@ -28,7 +29,8 @@ public class Student {
         this.id = id;
     }//setID //ใช้ในการเซตค่าของรหัส
     public String getId(){
-        return  this.id;
+        return
+                this.id;
     }//getID //การอ่านค่า
 
     public void setname(String n){
